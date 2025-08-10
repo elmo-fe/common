@@ -11,6 +11,7 @@
  *
  * Date: 2013-07-03T13:30Z
  */
+if(!window.$){
 (function( window, undefined ) {
 
 // Can't do this because several apps including ASP.NET trace
@@ -8827,3 +8828,4 @@ if ( typeof window === "object" && typeof window.document === "object" ) {
 }
 
 })( window );
+}
